@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav-item{
+    color: white;
+    float: left;
+    display: flex;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.nav-item:hover{
+    background-color: lightcoral;
+    color: purple;
+}
+
+.nav-item.selected {
+    background-color: green;
+    color: white;
+}
